@@ -25,7 +25,7 @@ Results page will be updated in real-time. Names of each candidates for each pos
 ## Technology Stack
 
 ### Front-End
-HTML 5, CSS 3, Bootstrap 5-alpha, Chart.js, jQuery, fontawesome
+HTML 5, CSS 3, JavaScript, Bootstrap 5-alpha, Chart.js, jQuery
 
 ### Back-End
-PHP, MySQL
+Vanilla PHP, MySQL
