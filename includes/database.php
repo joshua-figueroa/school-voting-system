@@ -2,7 +2,7 @@
     if(isset($_POST['submit-btn']) || isset($_SESSION['name'])) {
         //Database Information
         $servername = "127.0.0.1:3307";
-        $dbUsername = "joshuafigueroa";
+        $dbUsername = "root";
         $dbPassword = "";
         $dbName = "voting_system";
 

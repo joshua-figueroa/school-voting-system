@@ -4,7 +4,7 @@ Students can simply pick amongst the candidates they want to vote. They can also
 
 ## Admin Page
 
-The admin can add students information to the database as long as they inputed the correct credentials on the admin login page. For the purpose of testing, the userID and password of the admin is both set to "admin".
+The admin can add students information to the database as long as they inputed the correct credentials on the admin login page. For the purpose of testing, the userID and password of the admin is both set to "admin". To access the admin page, go to voting_system/admin.php
 
 ## Login Page
 
@@ -20,7 +20,7 @@ Students will pick the person they want to vote. The image of the candidates wil
 
 ## Results Page
 
-Results page will be updated in real-time. Names of each candidates for each positions will be shown on the screen as well as the amount of vote they have gathered. There is also a bar graph for each position that tallies the vote per grade level per candidate.
+Results page will be updated in real-time. The data is from the rest API connected to the MySQL Database. Names of each candidates for each positions will be shown on the screen as well as the amount of vote they have gathered. There is also a bar graph for each position that tallies the vote per grade level per candidate. 
 
 ## Technology Stack
 

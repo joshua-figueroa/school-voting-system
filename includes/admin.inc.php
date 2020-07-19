@@ -5,7 +5,7 @@
         $username = filter_var($_POST['username'], FILTER_SANITIZE_STRING);
         $password = $_POST['password'];
         $hashedpswd = password_hash($password, PASSWORD_DEFAULT);
-        $dbpass = '$2y$12$sl7DsqbzIieG1SUE0KBGieOmJ6Aqsn9vijfIqkTul895UiEkb7p9u';
+        $dbpass = '$2y$12$sl7DsqbzIieG1SUE0KBGieOmJ6Aqsn9vijfIqkTul895UiEkb7p9u'; // bcrypt hash of "admin"
 
         //Error handlers
         if(empty($username)) {

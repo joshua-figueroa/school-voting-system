@@ -28,7 +28,7 @@
         <div class="dropleft">
             <img class="img-profile rounded-circle dropdown-toggle" src="images/avatar.png" width=45 id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <div class="dropdown-menu" aria-labelledby="dropdownMenu">
-                <a class="dropdown-item" href="results.html">
+                <a class="dropdown-item" href="results.php">
                     <i class="fad fa-poll-h fa-fw mr-2 text-muted"></i>Results
                 </a>
                 <div class="dropdown-divider"></div>
@@ -47,20 +47,20 @@
                     <h1 class="h3 mb-3 font-weight-300">Admin Panel</h1>
                     <div class="col-6 text-left">
                         <label for="firstName" class="form-label">First Name</label>
-                        <input type="text" name="firstName" id="firstName" class="form-control" placeholder="First Name">
+                        <input type="text" name="firstName" id="firstName" class="form-control" placeholder="First Name" autocomplete="off" required>
                     </div>
                     <div class="col-6 text-left">
                         <label for="lastName" class="form-label">Last Name</label>
-                        <input type="text" name="lastName" id="lastName" class="form-control" placeholder="Last Name">
+                        <input type="text" name="lastName" id="lastName" class="form-control" placeholder="Last Name" autocomplete="off" required>
                     </div>
                     <div class="col-12 text-left mt-2">
                         <label for="username" class="form-label">User ID</label>
-                        <input type="text" name="username" class="form-control" id="username" placeholder="User ID">
+                        <input type="text" name="username" class="form-control" id="username" placeholder="User ID" autocomplete="off" required>
                     </div>
                     <div class="col-12 text-left mt-2">
                         <label for="password" class="form-label">Password</label>
                         <div class="input-group flex-nowrap pass">
-                            <input type="password" name="password" class="form-control" id="password" placeholder="Password" data-toggle="password">
+                            <input type="password" name="password" class="form-control" id="password" placeholder="Password" data-toggle="password" required>
                             <span class="input-group-text text-center eye" id="basic-addon3"><i class="fad fa-eye"></i></span>
                         </div>
                     </div>
@@ -78,13 +78,13 @@
                     <div class="col-6 text-left mt-2">
                         <label for="inputSection" class="form-label">Section</label>
                         <select id="inputSection" class="form-select" name="inputSection">
-                            <option value="A" selected>Section A</option>
-                            <option value="B">Section B</option>
-                            <option value="C">Section C</option>
-                            <option value="D">Section D</option>
-                            <option value="E">Section E</option>
-                            <option value="F">Section F</option>
-                            <option value="G">Section G</option>
+                            <option value=1 selected>Section A</option>
+                            <option value=2>Section B</option>
+                            <option value=3>Section C</option>
+                            <option value=4>Section D</option>
+                            <option value=5>Section E</option>
+                            <option value=6>Section F</option>
+                            <option value=7>Section G</option>
                         </select>
                     </div>
                     <button class="col-3 btn btn-purple mx-auto mt-3 px-4" type="submit" name="submit-btn">Add</button>

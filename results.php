@@ -12,12 +12,19 @@
     <div class="container-fluid py-4" id="top">
         <div class="row mx-3 bg-white px-5 shadow" id="body">
             <div class="row">
-                <div class="col-11 my-auto">
+                <div class="col-12 my-auto">
                     <h1 class="text-center mt-3 mb-3 font-weight-300">Automated 2020 Election: Live Results</h1>
                 </div>
-                <div class="col-1 my-auto">
-                    <a href="includes/user_logout.inc.php" class="btn btn-danger">Logout</a>
-                </div>
+                <?php
+                    if(isset($_SESSION['name'])) {
+                        echo '<div class="col-1 my-auto">
+                                <a href="includes/user_logout.inc.php" class="btn btn-danger">Logout</a>
+                            </div>
+                            <div class="col-11 my-auto">
+                                <h1 class="text-center mt-3 mb-3 font-weight-300">Automated 2020 Election: Live Results</h1>
+                            </div>';
+                    }
+                ?>
             </div>
             <hr class="mx-auto">
             <h2 id="count" class="text-center"></h2>

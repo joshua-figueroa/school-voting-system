@@ -1,6 +1,6 @@
 <?php
+    session_start();
     if(isset($_SESSION['name']) || isset($_POST['submit-btn'])) {
-        session_start();
         $name = $_SESSION['name'];
         $username = $_SESSION['userID'];
 ?>
@@ -118,7 +118,7 @@
                     <h1 class="mb-3 font-weight-300" style="line-height: 1.5;">You can only vote once.</h1>
                         <div class="row text-center">
                             <a href="includes/user_logout.inc.php" class="col-4 mt-2 btn btn-danger px-4 mr-2 ml-auto">Logout</a>
-                            <a href="results.html" class="col-4 mt-2 btn btn-purple px-4 ml-2 mr-auto">Result Page</a>
+                            <a href="results.php" class="col-4 mt-2 btn btn-purple px-4 ml-2 mr-auto">Result Page</a>
                         </div>
                     </div>
             </div>
