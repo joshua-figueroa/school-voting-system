@@ -1,0 +1,97 @@
+body {
+    overflow-x: hidden;
+    background-color: whitesmoke;
+}
+hr:not([size]) {
+    width: 90%;
+}
+.pl-10 {
+    padding-left: 10rem !important;
+}
+.pr-10 {
+    padding-right: 10rem !important;
+}
+#body {
+    border-radius: 20px;
+}
+.img-profile {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+.img-profile:hover {
+    cursor: pointer;
+}
+
+.selector input {
+    margin:0;
+    padding:0;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+}
+.naruto { 
+    background-image: url(../images/naruto.png); 
+    width: 100%;
+    height: 300px;
+}
+.sasuke {
+    background-image: url(../images/sasuke.png); 
+    width: 100%;
+    height: 300px;
+}
+.visa { 
+    background-image:url(http://i.imgur.com/lXzJ1eB.png); 
+    width: 100%;
+    height: 150px;
+}
+.mastercard { 
+    background-image:url(http://i.imgur.com/SJbRQF7.png); 
+    width: 100%;
+    height: 150px;
+}
+
+.selector input:active +.selector-option { opacity: .9; }
+.selector input:checked +.selector-option {
+    -webkit-filter: none;
+    -moz-filter: none;
+    filter: none;
+}
+.selector-option {
+    cursor:pointer;
+    background-size:contain;
+    background-repeat:no-repeat;
+    display:inline-block;
+    -webkit-transition: all 100ms ease-in;
+    -moz-transition: all 100ms ease-in;
+    transition: all 100ms ease-in;
+    -webkit-filter: brightness(1) grayscale(.5) opacity(.7);
+    -moz-filter: brightness(1) grayscale(.5) opacity(.7);
+    filter: brightness(1) grayscale(.5) opacity(.7);
+}
+.selector-option:hover {
+    -webkit-filter: brightness(1) grayscale(.5) opacity(.9);
+    -moz-filter: brightness(1) grayscale(.5) opacity(.9);
+    filter: brightness(1) grayscale(.5) opacity(.9);
+}
+
+.form-check .form-check-input {
+    float: unset !important;
+}
+.btn-purple { 
+    background-color: #6f42c1; 
+    color: whitesmoke;
+}
+.btn-purple:hover {
+    background-color: #523091;
+    color: whitesmoke;
+}
+.font-weight-300 {
+    font-weight: 300 !important;
+}
+.py-10 {
+    padding: 0 10%;
+}
+.ml-6 {
+    margin-left: 3.8rem !important;
+}

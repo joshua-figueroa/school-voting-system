@@ -1,0 +1,18 @@
+body {
+    overflow-x: hidden;
+    background-color: whitesmoke;
+}
+#body {
+    border-radius: 20px;
+}
+.form-signin {
+    width: unset !important;
+}
+.btn-purple { 
+    background-color: #6f42c1; 
+    color: whitesmoke;
+}
+.btn-purple:hover {
+    background-color: #523091;
+    color: whitesmoke;
+}
